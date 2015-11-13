@@ -13,7 +13,7 @@ Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
 
-
+$ is not defined
 
 
 ++++++++++++
@@ -22,7 +22,7 @@ Question #2:  (5 points)
 Why should you avoid including jQuery in a project if you don't need it?
 
 
-
+jQuery doesn't go into depth, it just works for what it's needed for
 
 
 
@@ -32,10 +32,30 @@ Question #3:  (5 points)
 How does every jQuery statement start?
 
 
-
+Every jQuert statement starts with a $
 
 
 ++++++++++++
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+
+A CDN is a tool that allows a user to distribute files and load across several different systems instead of hosting a website on a single server.
+
+Four advantages are:
+
+1) Different domains
+
+Browsers limit the number of file downloads to a single domain
+
+2) High capacity infrastructures
+
+Higher availablilty, lower network latency and lower packet loss
+
+3) Distributed data centers
+
+CDN's provide localized data centers which are closer to the user and result in faster downloads
+
+4) Built-in version control
+
+Possible to link to a specific version of a CSS file or JavaScript library, and can also request the latest version if required
